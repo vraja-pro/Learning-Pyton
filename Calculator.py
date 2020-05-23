@@ -9,12 +9,12 @@ while True:
               result = num1 - num2
               break
        elif todo == "/":
-              if num1 != 0:
+              if num2 != 0:
                      result = num1 / num2
                      break
               else:
                      print("Can't devide by 0, try again")
-                     num1 = int(input("Write a number "))
+                     num2 = int(input("Write a number "))
        elif todo == "*":
               result = num1 * num2
               break
